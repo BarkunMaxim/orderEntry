@@ -1,0 +1,14 @@
+server:
+  port: 8084
+catalog:
+  host: http://localhost
+  port: 8081
+  url: ${catalog.host}:${catalog.port}
+inventory:
+  host: http://localhost
+  port: 8082
+  url: ${inventory.host}:${inventory.port}
+customer-management:
+  host: http://localhost
+  port: 8083
+  url: ${customer-management.host}:${customer-management.port}
